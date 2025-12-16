@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (large datasets)
+*.csv
+final_dataset/*.csv
+
+# Model artifacts (too large for git)
+*.pkl
+ml_artifacts/*.pkl
+ml_artifacts_v2/*.pkl
+
+# Logs
+*.log
+pipeline_output.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*_output.txt
+*_info.txt
+debug_*.py
+test_*.py
+check_*.py
+step1_*.py
+
+# Keep only essential files
+!README.md
+!QUICK_START.md
+!EXECUTION_SUMMARY.md
+!MODEL_V2_SUMMARY.md

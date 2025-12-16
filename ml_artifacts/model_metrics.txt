@@ -1,0 +1,30 @@
+Model Performance Metrics
+================================================================================
+
+Model: XGBoost Regressor
+Random Seed: 42
+
+Training: 14,759 samples
+  MAE: 0.088
+  R2:  1.000
+
+Validation: 4,920 samples
+  MAE: 0.102
+  R2:  1.000
+
+Test: 4,920 samples
+  MAE: 0.102
+  R2:  1.000
+
+Top 10 Features:
+       Feature  Importance
+   grand_index    0.999644
+ age_bin_31-40    0.000069
+ age_bin_41-50    0.000052
+edu_bin_Medium    0.000043
+ age_bin_51-60    0.000038
+   edu_bin_Low    0.000038
+  edu_bin_High    0.000030
+           age    0.000026
+     raw_score    0.000023
+gender_encoded    0.000023
