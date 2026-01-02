@@ -37,7 +37,7 @@ Thumbs.db
 *_output.txt
 *_info.txt
 debug_*.py
-test_*.py
+# test_*.py  # Commented out to allow test files in tests/ folder
 check_*.py
 step1_*.py
 
